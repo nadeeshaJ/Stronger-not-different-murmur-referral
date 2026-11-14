@@ -1,6 +1,6 @@
 # Licence for non-code material
 
-Copyright (c) 2026 D. Nadeesha Jayasuriya.
+Copyright (c) 2026 Dilani Nadeesha Jayasuriya.
 
 The protocol, deviation log, literature-search records, result tables and figures
 (`protocol/`, `results/`, `MODEL_CARD.md`, `README.md`) are licensed under the

@@ -6,7 +6,7 @@
 
 Code, frozen protocol, fold assignments and result tables for the MSc dissertation and the accompanying manuscript.
 
-D. Nadeesha Jayasuriya, MSc in Artificial Intelligence, Dublin Business School (supervisor: Dr. Shahram), 2026.
+Dilani Nadeesha Jayasuriya, MSc in Artificial Intelligence, Dublin Business School (supervisor: Dr. Shahram Azizi Sazi), 2026.
 
 This repository has the frozen protocol, all code, fold assignments and result tables. Raw audio is not included; download it from PhysioNet. The per-run predictions of all models (`runs*/`) are too large for GitHub and are deposited on Zenodo (see *Archived copies* below).
 

@@ -14,4 +14,4 @@
 | Known weaknesses | Lower sensitivity in adolescents (0.81–0.85); neonates almost absent from training (5 encounters). Under 0 dB noise or dropout, nearly every encounter is flagged (specificity down to 0.09–0.36). Murmur 'Unknown' cases were excluded from training and evaluation. |
 | Not validated on | Other populations, devices, sampling rates or clinical settings; external validation is pending (transportability check only) |
 | Fairness | Sex and campaign were not analysed as subgroups; age is reported descriptively |
-| Contact | D. Nadeesha Jayasuriya, Dublin Business School |
+| Contact | Dilani Nadeesha Jayasuriya, Dublin Business School |
