@@ -18,7 +18,7 @@ This repository has the frozen protocol, all code, fold assignments and result t
 | H2: two-stage workflow vs strongest single model, same total flags | +0.4 (−0.8 to +1.6) | +1.6 (+0.8 to +2.5) |
 | Post hoc: vs 3-seed ensemble of the strongest architecture, same total flags | −0.7 (−2.0 to +0.6) | −0.04 (−0.70 to +0.65) |
 
-In short, a second model beats threshold lowering, but not a stronger model or a seed ensemble at the same workload.
+In short, a second model beats threshold lowering. At the same workload it shows no detectable advantage over the strongest single model when the primary is weak, or over a 3-seed ensemble when the primary is strong (post hoc).
 
 ## Layout
 
