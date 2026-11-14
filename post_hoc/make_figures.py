@@ -138,7 +138,7 @@ def fig_study_a():
 def fig_budget():
     desc = pd.read_csv(R / "post_hoc" / "budget_curve_descriptive.csv")
     con = pd.read_csv(R / "post_hoc" / "budget_curve_contrasts.csv")
-    fig, axes = plt.subplots(2, 2, figsize=(7.2, 5.0), sharex=True)
+    fig, axes = plt.subplots(2, 2, figsize=(6.0, 4.6), sharex=True)
     for j, pl in enumerate(["weak", "strong"]):
         d = desc[desc.primary == pl]
         ax = axes[0, j]
@@ -169,14 +169,15 @@ def fig_budget():
             ax.plot(xb, c.estimate_murmurs, color=col, marker=mk, ms=3.5, label=lab, mec="white", mew=0.5)
         ax.axhline(0, color=INK, lw=0.7)
         ax.axvline(10, color=INK2, lw=0.6, zorder=0)
-        ax.set_xlabel("Review budget b (% of the primary's predicted negatives)")
+        ax.set_xlabel("Review budget b (% of predicted negatives)")
         ax.set_ylabel("Extra murmurs detected by the\nsecond-opinion workflow (95% CI)" if j == 0 else "")
         ax.set_ylim(min(-4.0, con.ci95_lo.min() * N_PRESENT - 0.3), 6.6)
         panel_label(ax, "cd"[j])
         if j == 1:
-            ax.legend(*axes[1, 0].get_legend_handles_labels(), loc="upper right", fontsize=6.4, handlelength=1.8)
-    fig.text(0.5, -0.02, "Budget curve registered in the protocol (§6) and computed after the frozen analysis with the frozen Study C code "
-             "(deviation 3). Ribbons: individual-clustered bootstrap 95% CIs; descriptive, no tests.", ha="center", fontsize=6.5, color=INK2)
+            fig.legend(*axes[1, 0].get_legend_handles_labels(), loc="upper center", bbox_to_anchor=(0.5, 0.005), ncol=1,
+                       fontsize=6.6, handlelength=1.8)
+    fig.text(0.5, -0.115, "Budget curve registered in the protocol (§6), computed after the frozen analysis with the frozen Study C code\n"
+             "(deviation 3). Ribbons: individual-clustered bootstrap 95% CIs; descriptive, no tests.", ha="center", va="top", fontsize=6.5, color=INK2)
     fig.tight_layout(h_pad=1.4, w_pad=2.0)
     save(fig, "fig3_budget_curve")
 
@@ -343,7 +344,7 @@ def fig_study_b_snr():
 def fig_study_b_referral():
     ref = pd.read_csv(R / "studyB_referral.csv")
     conds = [c for c in COND_ORDER]
-    fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.9), sharey=True)
+    fig, axes = plt.subplots(1, 2, figsize=(6.0, 3.9), sharey=True)
     ys = {c: len(conds) - i for i, c in enumerate(conds)}
     for j, pl in enumerate(["weak", "strong"]):
         ax = axes[j]
@@ -356,7 +357,8 @@ def fig_study_b_referral():
             ax.errorbar(r.H2_estimate_murmurs, ys[c] - 0.15, xerr=[[r.H2_estimate_murmurs - lo2], [hi2 - r.H2_estimate_murmurs]],
                         fmt="^", color=AQUA, ms=3.8, lw=0.9, mec="white", mew=0.4, label="H2 contrast" if c == "identity" else None)
             ax.text(8.3, ys[c], f"{r.eligible_fn:.0f}", fontsize=6.3, va="center", ha="right", color=INK2)
-        ax.text(8.3, len(conds) + 0.9, "eligible\nmisses", fontsize=6.0, va="bottom", ha="right", color=INK2)
+        ax.text(8.3, len(conds) + 1.05, "eligible misses", fontsize=6.0, va="center", ha="right", color=INK2)
+        ax.set_ylim(0.4, len(conds) + 1.5)
         ax.axvline(0, color=INK, lw=0.7)
         ax.set_xlim(-2.6, 8.5); ax.grid(axis="y", visible=False)
         ax.set_title(PRIM_L[pl], loc="left", fontweight="bold")
