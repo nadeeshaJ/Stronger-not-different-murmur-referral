@@ -1,0 +1,41 @@
+{
+  "_comment": "Training recipe, independently designed for this study (no previous-project code, configs or checkpoints used). Fixed at the protocol freeze.",
+  "archs": [
+    "wave_cnn",
+    "spec_cnn",
+    "crnn"
+  ],
+  "member_seeds": [
+    0,
+    1,
+    2
+  ],
+  "segment_s": 4.0,
+  "hop_s": 2.0,
+  "_label_note": "location = a recording is positive iff its auscultation location is listed in the encounter's Murmur locations (location-level CirCor annotation; standard in CinC 2022 entries).",
+  "train_label": "location",
+  "_agg_note": "Encounter score = max over recordings of the mean segment probability: an encounter is murmur-present if any location carries a murmur.",
+  "segment_to_recording": "mean_prob",
+  "recording_to_encounter": "max",
+  "epochs": 14,
+  "batch_size": 128,
+  "crops_per_recording": 4,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "class_weighting": "pos_weight",
+  "amp": true,
+  "deterministic": true,
+  "spectrogram": {
+    "n_fft": 256,
+    "hop": 64,
+    "fmax_hz": 1000.0,
+    "log_eps": 1e-08
+  },
+  "inner_inner": {
+    "enabled": false,
+    "partitions": [
+      0
+    ]
+  },
+  "_epochs_note": "Fixed 2026-11-10 by the registered pilot rule (smallest epoch within 0.005 pooled inner-OOF AUROC of each architecture's best, max over architectures): crnn 6, spec_cnn 11, wave_cnn 14 -> 14. Pilot = partition 0, outer fold 0, development data only."
+}

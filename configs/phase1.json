@@ -1,0 +1,48 @@
+{
+  "_comment": "Phase 1 configuration. Changing any value after the protocol freeze is a logged deviation.",
+  "dataset_dirname": "the-circor-digiscope-phonocardiogram-dataset-1.0.3",
+  "eligibility": {
+    "exclude_murmur_labels": [
+      "Unknown"
+    ],
+    "exclude_missing_age": true
+  },
+  "expected_counts": {
+    "encounters": 802,
+    "individuals": 744,
+    "recordings": 2770,
+    "murmur_present": 174,
+    "murmur_absent": 628
+  },
+  "partitions": {
+    "n_partitions": 5,
+    "n_outer": 5,
+    "n_inner": 5,
+    "_seed_note": "Seeds chosen 2026-11-09 for this study.",
+    "seeds": [
+      2026110901,
+      2026110902,
+      2026110903,
+      2026110904,
+      2026110905
+    ],
+    "stratify_on": [
+      "murmur pattern per individual",
+      "age_group"
+    ],
+    "group_on": "individual"
+  },
+  "preprocess": {
+    "sample_rate_hz": 4000,
+    "bandpass_hz": [
+      20.0,
+      1000.0
+    ],
+    "butter_order": 4,
+    "zero_phase": true,
+    "_segment_note": "4 s windows (several cardiac cycles even at low paediatric heart rates), 2 s hop; independently chosen.",
+    "segment_s": 4.0,
+    "hop_s": 2.0,
+    "pad_short": "zero"
+  }
+}

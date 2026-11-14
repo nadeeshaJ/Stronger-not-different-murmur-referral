@@ -1,0 +1,9 @@
+{
+  "post_hoc": true,
+  "deviation": 4,
+  "budget": 0.1,
+  "outputs": {
+    "h2_ensemble_contrasts.csv": "5bd6c8ed0e3fb2cae74f8f4cb78ee7190c264d5313aa15f4aa659f9329a0b905",
+    "h2_ensemble_descriptive.csv": "e6551b6e5ba93f112be113023f23135ea0b48ac558bac7e47688dd8582a57f65"
+  }
+}

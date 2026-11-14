@@ -1,0 +1,19 @@
+# Raw and cached data (download CirCor from PhysioNet; see README)
+data/raw/
+data/cache/
+data/external/
+# Model outputs (deposited on Zenodo, see README)
+runs/
+runs_*/
+*.npz
+*.npy
+*.pt
+*.tar
+# Environment and tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+exports/
+post_hoc/_to_delete/

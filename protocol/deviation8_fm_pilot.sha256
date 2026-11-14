@@ -1,0 +1,11 @@
+28455ff9f287787b9d3f7d2e37da6ab54c93318040518a42e3e2522eb04a8ce2  protocol/deviation8_fm_pilot.md
+534cb3fd3464b483bccaa53e3bd23bafab37ee6de31570e0b0145e5b2cb11400  post_hoc/fm_extract.py
+6e341d85518882a0d8edd5a4e2b3f790c38c2ada753442471b0f5621f968e9a3  post_hoc/fm_heads.py
+c88a9a6d40bda43668999c79ca0e947c71b166d93332fe72c92ce91e3cf91e49  post_hoc/fm_pilot_analysis.py
+hashed 2026-11-13T16:16:05Z, before any pilot run
+--- re-hashed 2026-11-13T16:20:20Z after a dry run on synthetic predictions fixed a pandas bug in fm_pilot_analysis.py (desc.flags -> desc["flags"]); still before any real pilot run
+28455ff9f287787b9d3f7d2e37da6ab54c93318040518a42e3e2522eb04a8ce2  protocol/deviation8_fm_pilot.md
+534cb3fd3464b483bccaa53e3bd23bafab37ee6de31570e0b0145e5b2cb11400  post_hoc/fm_extract.py
+6e341d85518882a0d8edd5a4e2b3f790c38c2ada753442471b0f5621f968e9a3  post_hoc/fm_heads.py
+ce48c9b7d33d794922bc62dc4fc5f587d3be3bcda9771925520613c5e568b191  post_hoc/fm_pilot_analysis.py
+3df76f77b4d6bfdf7940e16ad3ce880a315671ee88533d8eec48d02c1fdd5eb1  run_fm_pilot.bat

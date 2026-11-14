@@ -1,0 +1,41 @@
+{
+  "dataset_dir": "D:\\Reserch - Part 2\\murmur-referral\\data\\raw\\the-circor-digiscope-phonocardiogram-dataset-1.0.3",
+  "sha256sums": {
+    "ok": 10434,
+    "failed": 0,
+    "first_failures": []
+  },
+  "cohort": {
+    "raw_encounters": 942,
+    "excluded_murmur_unknown": 68,
+    "excluded_missing_age": 72,
+    "excluded_missing_age_pregnant": 68,
+    "encounters": 802,
+    "individuals": 744,
+    "recordings": 2770,
+    "murmur_present": 174,
+    "murmur_absent": 628,
+    "age_groups": {
+      "Neonate": 5,
+      "Infant": 101,
+      "Child": 627,
+      "Adolescent": 69
+    },
+    "age_groups_present": {
+      "Neonate": 1,
+      "Infant": 25,
+      "Child": 132,
+      "Adolescent": 16
+    },
+    "individuals_with_2plus_encounters": 58
+  },
+  "folds_sha256": "091d7697c3c92c42c5cfbb6c7d830095e74eaa084b3a3b4193d962eb20e2aebc",
+  "cohort_encounters_sha256": "5869e27554cfdfe52ef1aa3bc30b1282926e8e40951337feb06d52d3ed8cd731",
+  "cohort_recordings_sha256": "538a3d6c9d45a644153a72de4c0f84a85ef99b63f0268e1ecfb50f027a8db8fa",
+  "cache": {
+    "n_recordings": 2770,
+    "n_samples": 250054016,
+    "waveforms_sha256": "66c07d1a2ab590b6315e67507974675a704811be626462f950f3597f708061b7",
+    "index_sha256": "60d2d864f22e354d309e5c99c1e2f6853992404659fdae6e6f469d601d143265"
+  }
+}

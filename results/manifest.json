@@ -1,0 +1,27 @@
+{
+  "simulated": false,
+  "runs_dir": "D:\\Reserch - Part 2\\murmur-referral\\runs",
+  "n_runs": 1125,
+  "elapsed_s": 3633.7,
+  "outputs": {
+    "age_strata.csv": "917075b3c0e93a334b4242fa3558cc4bf5b939edbf121cac3018b25dae62e8f6",
+    "H3_adjusted.csv": "6debb119e9ee55635726496b54b6a9eecfd1c6cc3e476d6d2a82f15cc882bf56",
+    "H3_combinations.csv": "68bec466899e148bb788f438f3ca566e15d2784c98906edb5fc32c706e048c83",
+    "H3_matching_log.csv": "c05a2536dcea481cbfd7c848c2a7a8b3c5e8042f5f0951a9631a3fe8b120f250",
+    "H3_primary.csv": "600f98606063cec3b713d3f75803ad3609f0816825fe011d8b3ab63da3c43248",
+    "studyA_error_overlap.csv": "87080cd65b0083a7213d5dbfb5aac4cf0d71fdf5234311fefa8d40cba6ea635d",
+    "studyA_performance.csv": "87095ae168def8c1f2db505a1ddfd04c39d85449ec11806e3d3cf80ce63d0cc0",
+    "studyA_reliability.csv": "a3f985d1b2a38a6a764be333b0c86b2ff38cc0522475f9974f95c5f16ce9326d",
+    "studyB_age.csv": "eaa5254ca55435659408a0f7904e2a8fc03acc84b64e148eede39f4fbba4ab1e",
+    "studyB_age_snr_gee.csv": "211d985a620bda4c431067586685cd65f425187f4ddaadf93be070a99c2be492",
+    "studyB_overlap.csv": "8fad787f18b8078491b4e7fd97c9fb1eaa76863b955a4f3c3f2d63e07459547b",
+    "studyB_referral.csv": "43607d73374179cf5f28c5dee8b61bb5377dc5f5d6db117616d805694163d700",
+    "studyB_robustness.csv": "b8f137d6e52857529107129eadbb1e0ffdd4121d445d4624602afb6fee2fc79d",
+    "studyC_confirmatory.csv": "4fb5a294784470eefa02f0b42f4b63691a5aee88d4ad520d4c79799692abf3f0",
+    "studyC_descriptive.csv": "42d58a151be1d8f7ced072cdb66f094368d17e4d62c415112002d6638c1dd1fc",
+    "studyC_per_rep.csv": "6e5363f5d378361c95a0b6ee7f19ae77487a220cbb23be1bb69dad289e97a884",
+    "studyC_secondary.csv": "d9212d67ff7736f784cb9fe361a4e0c592cf0d60c1021040dc5d0ba992aa4eed",
+    "studyC_selection.csv": "522485a82304604fdba418bf01c1fac74b6fef09dbc5456e9ef661c8e1f7e681",
+    "transfer_check.csv": "53ced924cacebd4a42018334c52a8ff8b1cce911a8e9c891476cd8e58d1d3b91"
+  }
+}

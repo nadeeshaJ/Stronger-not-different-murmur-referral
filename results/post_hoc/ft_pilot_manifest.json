@@ -1,0 +1,12 @@
+{
+  "post_hoc": true,
+  "deviation": 9,
+  "budget": 0.1,
+  "design": "partition 0, seed 0, 5 replicates",
+  "plan_sha256": "7b8ba54d345f4ce2f2549968f1d6d2f74ac39676d7c80f157722ce3fa42a98b8",
+  "outputs": {
+    "ft_pilot_auroc.csv": "cc61d175f01a66fe8023620deed276e495bd041dcc4dba481fa11e32384e752b",
+    "ft_pilot_contrasts.csv": "44dc340f57667802bc8e5831b50cf2f73d8ab1f997cfb3c336260e2ed1827a89",
+    "ft_pilot_descriptive.csv": "a699776901a466f8d1d3bbf7a4fa80474c179496bee5291cb731271dd327d425"
+  }
+}

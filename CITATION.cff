@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "Stronger, not different: AI second opinions in paediatric heart murmur screening (code, protocol and results)"
+type: software
+authors:
+  - family-names: Jayasuriya
+    given-names: "D. Nadeesha"
+    affiliation: "Dublin Business School"
+version: 1.0.0
+date-released: 2026-11-14
+license: MIT
+repository-code: "https://github.com/nadeeshaJ/Stronger-not-different-murmur-referral"
+keywords:
+  - heart murmur
+  - phonocardiogram
+  - CirCor DigiScope
+  - AI second opinion
+  - referral
+  - matched workload
+  - screening
+references:
+  - type: dataset
+    title: "CirCor DigiScope Phonocardiogram Dataset (version 1.0.3)"
+    authors:
+      - family-names: Oliveira
+        given-names: Jorge
+    publisher:
+      name: PhysioNet
+    doi: 10.13026/tshs-mw03

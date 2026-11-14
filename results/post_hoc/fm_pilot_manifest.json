@@ -1,0 +1,12 @@
+{
+  "post_hoc": true,
+  "deviation": 8,
+  "budget": 0.1,
+  "plan_sha256": "28455ff9f287787b9d3f7d2e37da6ab54c93318040518a42e3e2522eb04a8ce2",
+  "outputs": {
+    "fm_pilot_auroc.csv": "464150df8a42fb33ce4693ddb34a4b22b5e10a3225a297253815c4c5cec9bc21",
+    "fm_pilot_contrasts.csv": "92a002784f878fd09d966549dc2e2b077e016957fa84d6a17b7efac830d35729",
+    "fm_pilot_descriptive.csv": "8f58f227bd0778dec01555c4120d6b91c55161f371407ccc1165ca7867405e07",
+    "fm_pilot_error_correlation.csv": "81c8c459b21437fa7102603f84121b2cafa785644d8941469641eccc0156d88f"
+  }
+}

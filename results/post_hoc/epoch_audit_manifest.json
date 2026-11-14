@@ -1,0 +1,9 @@
+{
+  "post_hoc": true,
+  "deviation": 5,
+  "outputs": {
+    "epoch_audit_auroc.csv": "49caa1f1137dbce9112c7ce6eb1f8301559e8d8136b182154f8ad3069d830a47",
+    "epoch_audit_choices.csv": "5f178f8105f9363e8abfdc02e37411a9e805025b668e324246839358247bf997",
+    "epoch_audit_confirmatory.csv": "91e84eb5779c68d9db3f9f223262c556b7fe965b66caed1b6242bb4ee2ead051"
+  }
+}

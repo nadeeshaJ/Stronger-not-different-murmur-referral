@@ -1,0 +1,23 @@
+{
+  "post_hoc": true,
+  "deviation": 3,
+  "budgets": [
+    0.01,
+    0.02,
+    0.03,
+    0.05,
+    0.075,
+    0.1,
+    0.125,
+    0.15,
+    0.2,
+    0.25,
+    0.3
+  ],
+  "elapsed_s": 10.0,
+  "outputs": {
+    "budget_curve_contrasts.csv": "df12cb5341e9fb14e66cf87c3114d2c659ef2fe1850090290e749e1282bcb251",
+    "budget_curve_descriptive.csv": "601058515460ad93f38af72aad8f03659b837a5264e5b77338320eeada5b5834",
+    "budget_curve_selection.csv": "2d03cdc2d9705c50c1337be093220e39ec979377b64c64e79c27272b47524a18"
+  }
+}

@@ -1,0 +1,4 @@
+7b8ba54d345f4ce2f2549968f1d6d2f74ac39676d7c80f157722ce3fa42a98b8  protocol/deviation9_ast_finetune.md
+cba49ff84d60a16f834a94b8519e1fe8a5da680e18b10a4c3d575a445abbbaf4  post_hoc/ast_finetune.py
+55fb739becd2381f1cfccc28ce102bd3de3ab9ca57ad6ec5a9ca0edf8856d321  run_ast_finetune.bat
+hashed 2026-11-13T19:03:21Z, after a dry run on a tiny random model and synthetic predictions, before any real run

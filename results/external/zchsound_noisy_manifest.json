@@ -1,0 +1,12 @@
+{
+  "addendum": "protocol/addendum_external.md",
+  "n_units": 318,
+  "n_positive": 158,
+  "outputs": {
+    "zchsound_noisy_perf_per_replicate.csv": "bc5a30751ea53f6044f08f0d6465734cd04f60a0e262a7a1e94f4c7424bf6752",
+    "zchsound_noisy_performance.csv": "fb20688311828fe3730fefdead2831d05f515fb5c419361ba45f0f12009d612a",
+    "zchsound_noisy_referral.csv": "4b642d89d0cadc03b267096a9ce79ff9dc88d3b3fbec202c86431d0f6b91ea4c",
+    "zchsound_noisy_subgroups.csv": "1134e8c37bc10242f0afddbfab012bcc2ce3720e368cb6a7f266e9f36dd1bfc5",
+    "zchsound_noisy_transfer.csv": "e3263d48ee6b3a4bfed46a6cbcc39d895f1655f3a0636ece6874e38b0ee116e2"
+  }
+}

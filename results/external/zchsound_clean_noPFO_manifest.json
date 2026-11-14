@@ -1,0 +1,12 @@
+{
+  "addendum": "protocol/addendum_external.md",
+  "n_units": 871,
+  "n_positive": 338,
+  "outputs": {
+    "zchsound_clean_noPFO_perf_per_replicate.csv": "57568838f61cfd1470e637888ccb07046ddb320fb759a27c947e7642fe3a0536",
+    "zchsound_clean_noPFO_performance.csv": "9d8cbf2afcf47c9658acf65c67561913d22fa0ce64020cd154eb7c070ba0f290",
+    "zchsound_clean_noPFO_referral.csv": "045f48c6423bb72f48426c45b7b6fcbbdd449e505a7a9ac7daf31cdaff52c2a3",
+    "zchsound_clean_noPFO_subgroups.csv": "9393ab96c59a7c59f4d0d11e3f44f1ca138f32efc2c24c0db6f6281c39944a9f",
+    "zchsound_clean_noPFO_transfer.csv": "4fd7d7cc6d3ea4c4fa76fabc953c516974cdc4d9cfae3cec3a0bb477b1bcb435"
+  }
+}
