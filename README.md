@@ -46,7 +46,7 @@ In short, a second model beats threshold lowering, but not a stronger model or a
 3. `run_full.bat` — freezes, trains 1,125 models (about 35–40 GPU-hours on an RTX 4060 Laptop with 2 workers), runs Study B corruption scoring and the frozen analysis.
 4. Post hoc: `python post_hoc/budget_curve.py`, `python post_hoc/ensemble_standalone.py`, `python post_hoc/make_figures.py` (needs `matplotlib`). The transformer pilots (`run_fm_pilot.bat`, `run_ast_finetune.bat`) also need `transformers`.
 
-To re-run only the analyses without retraining, download the predictions archive from Zenodo and extract it into this folder so that `runs/` sits next to `src/`.
+To re-run only the analyses without retraining, download the predictions archive from Zenodo (doi:10.5281/zenodo.24223748) and extract it into this folder so that `runs/` sits next to `src/`.
 
 The frozen analysis (`scripts/run_analysis.py`) is the only code that joins outer-test labels. It refuses to run unless the code hash matches `protocol/FREEZE.json`.
 
@@ -68,4 +68,4 @@ Use GitHub's *Cite this repository* button (from `CITATION.cff`) or cite the arc
 ## Archived copies
 
 - Code release v1.0.0: https://doi.org/10.5281/zenodo.24223559
-- Predictions of all models (`runs/`, `runs_corrupt/`, `runs_fm/`, `runs_ft/`): Zenodo DOI to be added.
+- Predictions of all models (`runs/`, `runs_corrupt/`, `runs_fm/`, `runs_ft/`, `runs_pilot/`): https://doi.org/10.5281/zenodo.24223748

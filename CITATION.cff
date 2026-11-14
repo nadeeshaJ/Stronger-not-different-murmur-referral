@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: Jayasuriya
     given-names: "D. Nadeesha"
+    orcid: "https://orcid.org/0009-0008-8337-4994"
     affiliation: "Dublin Business School"
 version: 1.0.0
 doi: 10.5281/zenodo.24223559
@@ -28,3 +29,9 @@ references:
     publisher:
       name: PhysioNet
     doi: 10.13026/tshs-mw03
+  - type: dataset
+    title: "Model predictions for Stronger, not different: AI second opinions in paediatric heart murmur screening"
+    authors:
+      - family-names: Jayasuriya
+        given-names: "D. Nadeesha"
+    doi: 10.5281/zenodo.24223748
