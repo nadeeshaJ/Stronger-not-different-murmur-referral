@@ -1,5 +1,7 @@
 # Stronger, not different: AI second opinions in paediatric heart murmur screening
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24223559.svg)](https://doi.org/10.5281/zenodo.24223559)
+
 **When do AI second opinions help in paediatric heart murmur screening? A matched-workload evaluation on CirCor DigiScope v1.0.3.**
 
 Code, frozen protocol, fold assignments and result tables for the MSc dissertation and the accompanying manuscript.
@@ -61,9 +63,9 @@ The frozen analysis (`scripts/run_analysis.py`) is the only code that joins oute
 
 ## How to cite
 
-Use GitHub's *Cite this repository* button (from `CITATION.cff`) or the Zenodo DOI once a release is archived.
+Use GitHub's *Cite this repository* button (from `CITATION.cff`) or cite the archived release: doi:10.5281/zenodo.24223559.
 
 ## Archived copies
 
-- Code release: Zenodo DOI to be added after the first GitHub release.
+- Code release v1.0.0: https://doi.org/10.5281/zenodo.24223559
 - Predictions of all models (`runs/`, `runs_corrupt/`, `runs_fm/`, `runs_ft/`): Zenodo DOI to be added.
